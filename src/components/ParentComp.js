@@ -25,10 +25,12 @@ class ParentComp extends Component {
     return (
       <div>
        <h3>Parent Component</h3>
+       <h2>This is my second time learning git</h2>
        <MemoComp name={this.state.name} />
-       {/* <RegComp name={this.state.name}></RegComp>
-       <PureComp name={this.state.name}></PureComp> */}
-      </div>
+       <h2> Something to test</h2>
+       <RegComp name={this.state.name}></RegComp>
+       <PureComp name={this.state.name}></PureComp>
+      </div>    
     )
   }
 }
