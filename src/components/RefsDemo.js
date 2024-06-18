@@ -13,6 +13,7 @@ export class RefsDemo extends Component {
   render() {
     return (
       <div>
+        <h2>I want to learn git also</h2>
         <input type="text" ref= {this.inputRef}/>
       </div>
     )
